@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: blueviolet;
+}
+
+div {
+  display: flex;
+}
+
+h1, h2, h3, p, a {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+h1, p {
+  margin: 10px;
+}
+
+.addRow {
+  width: 100vw;
+  height: 50px;
+}
+
+.addRow * {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.addRow input {
+  padding: 0 10px;
+}
+
+.addRow a {
+  max-width: 100px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 200ms;
+}
+
+.addRow a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+#lista {
+  flex-direction: column;
+}
